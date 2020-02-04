@@ -1,3 +1,6 @@
+read -p "Masukkan username untuk akun default: " dname
+
+
 # instal webserver
 cd
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/dektian/script-jualan-ssh-vpn/master/conf/nginx.conf"
